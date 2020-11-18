@@ -1,2 +1,3 @@
-# cba_settings
-default Gruppe Adler Gameserver CBA settings
+# userconfig
+
+Gruppe Adler server settings
