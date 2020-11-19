@@ -211,6 +211,7 @@ force acex_headless_enabled = false;
 force acex_headless_endMission = 0;
 force acex_headless_log = false;
 force acex_sitting_enable = true;
+acex_volume_enabled = true;
 
 force acre_sys_core_automaticAntennaDirection = true;
 force acre_sys_core_fullDuplex = true;
