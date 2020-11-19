@@ -1,0 +1,30 @@
+name: sort
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: denolib/setup-deno@v2
+      with:
+        deno-version: v1.x
+    - name: sort file
+      run: |
+        deno run --allow-read --allow-write tools/sort.ts
+    - name: commit
+      run: |
+        echo ${{ github.ref }}
+        git add .
+        git config --local user.email "admin@gruppe-adler.de"
+        git config --local user.name "Blechadler"
+        git commit -m "ci: sort lines in cba_settings.sqf" -a | exit 0
+    - name: Push changes
+      if: ${{ github.ref }} != refs/origin/main
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}

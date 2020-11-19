@@ -327,6 +327,6 @@ force TFAR_setting_DefaultRadio_Rifleman_West = "TFAR_rf7800str";
 force TFAR_spectatorCanHearEnemyUnits = true;
 force TFAR_spectatorCanHearFriendlies = true;
 force TFAR_takingRadio = 2;
-force TFAR_Teamspeak_Channel_Name = "";
 force TFAR_Teamspeak_Channel_Format = "TFAR-%1";
+force TFAR_Teamspeak_Channel_Name = "";
 force TFAR_Teamspeak_Channel_Password = "helium";
