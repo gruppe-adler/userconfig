@@ -23,7 +23,7 @@ jobs:
         git config --local user.name "Blechadler"
         git commit -m "ci: sort lines in cba_settings.sqf" -a | exit 0
     - name: Push changes
-      if: ${{ github.ref }} != refs/origin/main
+      if: github.ref != 'refs/heads/main'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
