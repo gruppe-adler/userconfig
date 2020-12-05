@@ -24,6 +24,10 @@ force force ace_common_checkPBOsCheckAll = false;
 
 force diwako_dui_nametags_enabled = false;
 
+force ace_interaction_disableNegativeRating = true;
+force ace_medical_gui_maxDistance = 2.5;
+
+
 /* 
 *   SERVER WHITELIST ===============================================================
 *   (optional mods that are not part of our modset, but may be used additionally)
