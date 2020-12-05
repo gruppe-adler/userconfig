@@ -22,8 +22,6 @@ force ace_cargo_paradropTimeCoefficent = 2.5;
 force force ace_common_checkPBOsAction = 0;
 force force ace_common_checkPBOsCheckAll = false;
 
-
-
 /* 
 *   SERVER WHITELIST ===============================================================
 *   (optional mods that are not part of our modset, but may be used additionally)
