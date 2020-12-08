@@ -22,8 +22,6 @@ force ace_cargo_paradropTimeCoefficent = 2.5;
 force force ace_common_checkPBOsAction = 0;
 force force ace_common_checkPBOsCheckAll = false;
 
-force diwako_dui_nametags_enabled = false;
-
 /* 
 *   SERVER WHITELIST ===============================================================
 *   (optional mods that are not part of our modset, but may be used additionally)
@@ -64,6 +62,7 @@ force ace_hearing_earplugsVolume = 0.5;
 force ace_hearing_enableCombatDeafness = false;
 force ace_hearing_unconsciousnessVolume = 0.4;
 force ace_hitreactions_minDamageToTrigger = 0.1;
+force ace_interaction_disableNegativeRating = true;
 force ace_interaction_enableTeamManagement = true;
 force ace_laser_dispersionCount = 2;
 force ace_laserpointer_enabled = true;
@@ -94,6 +93,7 @@ force ace_medical_blood_maxBloodObjects = 500;
 force ace_medical_fatalDamageSource = 0;
 force ace_medical_fractureChance = 0.8;
 force ace_medical_fractures = 1;
+force ace_medical_gui_maxDistance = 2.5;
 force ace_medical_ivFlowRate = 4;
 force ace_medical_limping = 2;
 force ace_medical_painCoefficient = 1;
@@ -252,6 +252,7 @@ diwako_dui_namelist_only_buddy_icon = false;
 diwako_dui_namelist_size = 1.5396;
 diwako_dui_namelist_text_shadow = 2;
 diwako_dui_namelist_width = 215;
+force diwako_dui_nametags_enabled = false;
 diwako_dui_radar_namelist_vertical_spacing = 0.75;
 diwako_dui_radar_occlusion_fade_time = 10;
 diwako_dui_radar_trackingColor = [0.93,0.26,0.93,1];
