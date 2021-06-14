@@ -6,5 +6,5 @@ Gruppe Adler server settings
 
 * clone this repo into the arma3 game directory, if it doesnt exist yet
 * navigate into it
-* right click `pull.bat` "execute ad admin"
+* right click `pull.bat` "execute as admin"
 * done
