@@ -288,6 +288,8 @@ force emr_main_preventHighVaulting = false;
 force emr_main_staminaCoefficient = 1;
 force emr_main_whitelistStr = "";
 
+force grad_tfarautoswitch_main_channelFormat = "TFAR-%1";
+force grad_tfarautoswitch_main_channelPassword = "helium";
 force force grad_versionCheck_setting_dontKickAdmin = true;
 force force grad_versionCheck_setting_kickOnMissingClient = true;
 force force grad_versionCheck_setting_kickOnMissingServer = true;
@@ -302,8 +304,6 @@ force tf_independent_radio_code = "_independent";
 force TF_terrain_interception_coefficient = 7;
 force tf_west_radio_code = "_bluefor";
 force TFAR_AICanHearPlayer = true;
-force grad_tfarautoswitch_main_channelFormat = "TFAR-%1";
-force grad_tfarautoswitch_main_channelPassword = "helium";
 force TFAR_enableIntercom = true;
 force TFAR_fullDuplex = true;
 force TFAR_giveLongRangeRadioToGroupLeaders = false;
