@@ -22,6 +22,7 @@ force ace_cargo_paradropTimeCoefficent = 2.5;
 force force ace_common_checkPBOsAction = 0;
 force force ace_common_checkPBOsCheckAll = false;
 force force ace_overheating_cookoffCoef = 0;
+force force acre_sys_core_unmuteClients = false;
 
 /* 
 *   SERVER WHITELIST ===============================================================
